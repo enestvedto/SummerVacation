@@ -41,4 +41,8 @@ public class SummerVacationDAL {
             return parks;
         }
     }
+
+    public Connection getConnection() {
+        return connection;
+    }
 }
